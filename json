@@ -1,0 +1,2 @@
+-- json encoder and decoder (new ones that are better than the roblox brokens ones)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Robbie-Wittenhagen/JSON/Main/JSON.lua')..'\n\nhookfunction(game.HttpService.JSONEncode, JSON["encode"])\nhookfunction(game.HttpService.JSONDecode, JSON["decode"])')()
